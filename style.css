@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+.container {
+    width:fit-content;
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: grey;
+}
+.tecla {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.tecla:hover{
+   background-color: black;
+   color: yellow; 
+}
+#operacion_realizada {
+    background-color: darkslategray;
+    padding: 3px;
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+#txt_resultado {
+    height: 80px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 40px;
+    padding: 0 10px;
+    background-color: yellow;
+
+}
