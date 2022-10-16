@@ -43,3 +43,19 @@ h1 {
     background-color: yellow;
 
 }
+@media (max-width: 479px) {
+    .tecla {
+        width: 40px;
+        height: 40px;
+        margin: 3px;
+        border-radius: 20px;
+        border: none;
+        font-size: 22px;
+        cursor: pointer;
+        transition: .3s;
+    }
+    }
+
+
+
+    
