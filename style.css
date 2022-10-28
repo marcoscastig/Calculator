@@ -23,6 +23,20 @@ h1 {
    background-color: black;
    color: yellow; 
 }
+.tecla2 {
+    width: 320px;
+    height: 80px;
+    margin: 0px auto;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.tecla2:hover{
+    background-color: black;
+    color: yellow; 
+ }
 #operacion_realizada {
     background-color: darkslategray;
     padding: 3px;
