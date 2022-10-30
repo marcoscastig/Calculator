@@ -68,6 +68,16 @@ h1 {
         cursor: pointer;
         transition: .3s;
     }
+    .tecla2 {
+        width: 160px;
+        height: 40px;
+        margin: 0px auto;
+        border-radius: 20px;
+        border: none;
+        font-size: 22px;
+        cursor: pointer;
+        transition: .3s;
+    }
     }
 
 

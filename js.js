@@ -40,7 +40,11 @@ function operador(num){
     
 }
 function operacion(oper){
-    if(oper==="."){}
+    if(oper==="."){
+        ultimoDigitoPresionado = "operacion"
+        parcial = /*(parcial.slice(0,-1))*/ parcial + oper
+        resultado.innerHTML+=oper
+    }
     if (ultimoDigitoPresionado ==='operacion'){
         opseleccionado = oper;
         parcial = (parcial.slice(0,-1)) + oper;
@@ -57,8 +61,6 @@ function operacion(oper){
 
     }
     ultimoDigitoPresionado = 'operacion'
-    console.log(numero)
-         console.log(parcial)
 }
 function calculo (){
     parcial = eval(parcial)
@@ -80,16 +82,26 @@ function limpiar(){
         numero = numero.slice(0,-1);
         parcial = parcial.slice(0,-1);
         resultado.innerHTML= parcial
+        
     }
         else {
             numero = numero.slice(0,-1);
             parcial = parcial.slice(0,-1);
             resultado.innerHTML= numero
-            oprealizada.innerHTML = 0;
+            oprealizada.innerHTML = "CALCULATOR";
 
         }
         
     console.log(numero)
     console.log(typeof(parcial))
+}
+function AC (){
+let parcial = "";
+let opseleccionado = ""
+let numero = ""
+let ultimoDigitoPresionado = ""
+resultado.innerHTML= parcial
+oprealizada.innerHTML = ""
+
 }
 

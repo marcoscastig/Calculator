@@ -10,7 +10,7 @@
 <body>
     <h1>Calculadora</h1>
     <div class="container">
-        <div id="operacion_realizada">0</div>
+        <div id="operacion_realizada"></div>
         <div id="txt_resultado"></div>
 
         <div class="fila">
@@ -32,13 +32,14 @@
             <button class="tecla" onclick="operacion('+')">+</button>
         </div>
         <div class="fila">
-            <button class="tecla" onclick="operador('.')">.</button>
+            <button class="tecla" onclick="operacion('.')">.</button>
             <button class="tecla" onclick="limpiar('')">C</button>
             <button class="tecla" onclick="operador('0')">0</button>
             <button class="tecla" onclick="operacion('/')">/</button>
         </div>
+        <div class="fila">
         <button class="tecla2" onclick="calculo('')">=</button>
-        
+    </div>
     </div>
     <footer>Marcos Castiglioni 2022</footer>
     <script src="js.js"></script>
